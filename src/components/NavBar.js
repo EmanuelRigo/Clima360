@@ -1,14 +1,13 @@
-import React from 'react'
-
 const NavBar = () => {
-  return (
-    <nav className='navbar bg-dark text-light mb-5'>
-        <div className='container-fluid'>
-            <h3 className='mx-auto'>Clima360</h3>
-            </div> 
-      
-    </nav>
-  )
+  return(
+
+      <nav className="navbar bg-dark text-light mb-5">
+          <div className="container-fluid">
+              <h3 className="mx-auto">Clima360</h3>
+          </div>
+      </nav>
+
+  );
 }
 
-export default NavBar
+export default NavBar;
