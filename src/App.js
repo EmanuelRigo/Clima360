@@ -11,6 +11,7 @@ function App() {
       <NavBar />
        <WeatherPanel /> 
       <Api />
+     
 
     </div>
   );

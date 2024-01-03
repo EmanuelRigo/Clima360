@@ -1,6 +1,7 @@
 import React from 'react';
 import Spinner from './Spinner';
 
+
 const Card = ({loadingData, showData, weather, forecast}) => {
 
     var today = new Date();
@@ -63,7 +64,7 @@ const Card = ({loadingData, showData, weather, forecast}) => {
                                     </div>
                                     <hr/>
 
-                                    <div className="row mt-4">
+                                    <div className="row clima_horario">
                                         <div className="col">
                                             <p>{forecastDate3}h</p>
                                             <p className="description"><img src={iconUrl3} alt="icon"/>{forecast.list[1].weather[0].description}</p>

@@ -9,6 +9,9 @@ body{
 .input-group{
   width: 65%;
 }
+.clima_horario{
+  margin-top: 9rem;
+}
 /* ////imagenes///// */
 .search__box{
   width: 80%;
